@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bottom_bar_hight">50dp</dimen>
+    <dimen name="nav_bar_hight">50dp</dimen>
+    <dimen name="window_padding1">10dp</dimen>
+    <dimen name="window_padding2">14dp</dimen>
+    <dimen name="window_nev_bar_padding">12dp</dimen>
+    
+    
+    <dimen name="frg_tab1_adv_minheight">140dp</dimen>
+    
+    
+    <dimen name="undobarMarginLeft">8dp</dimen>
+    <dimen name="undobarMarginRight">8dp</dimen>
+    <dimen name="undobarMarginBottom">16dp</dimen>
+    <dimen name="undobarBackgroundColor">16dp</dimen>
+    <dimen name="undoBarCornerRadius">0dp</dimen>
+    
+    <dimen name="padding1">5dp</dimen>
+    <dimen name="padding2">10dp</dimen>
+    <dimen name="padding3">15dp</dimen>
+    
+    
+    <dimen name="frg_tab1_line_height">12dp</dimen>
+    
+    
+    <!--以下为字体大小  -->
+    <dimen name="font1">10sp</dimen>
+    <dimen name="font2">12sp</dimen>
+    <dimen name="font3">14sp</dimen>
+    <dimen name="font4">16sp</dimen>
+    <dimen name="font5">18sp</dimen>
+    <dimen name="font6">20sp</dimen>
+    <dimen name="font7">24sp</dimen>
+    <dimen name="font_little">11sp</dimen>
+    <dimen name="main_bottom_font">13sp</dimen>
+    <dimen name="title">16sp</dimen>
+    
+    
+    
+    
+    
+    
+    
+
+
+</resources>

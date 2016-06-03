@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="lg_loading_dialog_bg">#77000000</color>
+    
+     <color name="mainwhite">#fff</color>
+     <color name="mainwhite2">#FFFFFa</color>
+     <color name="mainwhite3">#EFF0EF</color>
+     <color name="mainblack">#555</color>
+     <color name="mainred">#f33</color>
+     <color name="mainblue">#7093db</color>
+     <color name="maingray">#eee</color>
+     <color name="maingray2">#ccc</color>
+     <color name="maingray3">#ddd</color>
+     <color name="maingray4">#aaa</color>
+     <color name="maingray5">#666</color>
+     <color name="maingray6">#aaa</color>
+     <color name="maingreen">#046230</color>
+     <color name="maingreen2">#11cd6e</color>
+     <color name="mainorange">#ff6a00</color>
+</resources>

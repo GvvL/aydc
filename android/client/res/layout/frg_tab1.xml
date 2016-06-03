@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainwhite"
+    >
+    <RelativeLayout 
+        android:id="@+id/title_bar"
+        android:layout_height="@dimen/nav_bar_hight"
+        android:layout_width="match_parent"
+        android:background="@color/maingreen"
+        android:layout_alignParentTop="true"
+        >
+        <TextView 
+            android:id="@+id/tv_address"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/title"
+            android:text="@string/frg_tab1_tv_address"
+            android:textColor="@color/mainwhite"
+            android:drawableRight="@drawable/ic_arrow_down_white"/>
+        <ImageView 
+            android:id="@+id/img_search"
+            android:layout_height="25dp"
+            android:layout_width="25dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/window_padding2"
+            android:src="@drawable/ic_frg_tab1_seach"/>
+        
+    </RelativeLayout>
+    <com.aydc.client.ptr.PtrClassicFrameLayout
+        android:id="@+id/ptrlayout"
+        android:layout_below="@id/title_bar"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+		>
+	    <com.aydc.client.widgets.MScrollViewExtend
+	        android:id="@+id/scrollview"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:visibility="invisible"
+	        >
+	      <LinearLayout 
+	          	android:id="@+id/llt"
+	            android:layout_height="wrap_content"
+	            android:layout_width="match_parent"
+	            android:orientation="vertical">
+	            <!--广告  -->
+	            <include layout="@layout/frg_tab1_adv"/>
+	            <!--分类  -->
+	            <include layout="@layout/frg_tab1_cates"/>
+	            <!--活动  -->
+	            <include layout="@layout/frg_tab1_line"
+	                android:layout_height="@dimen/frg_tab1_line_height"
+	            	android:layout_width="match_parent"/>
+	            <include layout="@layout/frg_tab1_act"/>
+	            <include layout="@layout/frg_tab1_line"
+	                android:layout_height="@dimen/frg_tab1_line_height"
+	            	android:layout_width="match_parent"/>
+	            <!--筛选  -->
+	            <include
+	                android:id="@+id/condition" 
+	                layout="@layout/frg_tab1_condition"/>
+	            <!--店铺  -->
+	            <com.aydc.client.widgets.MListView
+	                android:id="@+id/lv_store"
+	                android:layout_height="wrap_content"
+	            	android:layout_width="match_parent"/>
+	                
+	       
+	
+	           
+	            
+	            
+	        </LinearLayout>
+	        
+	    </com.aydc.client.widgets.MScrollViewExtend>
+	</com.aydc.client.ptr.PtrClassicFrameLayout>
+	<include
+	    android:id="@+id/condition_s" 
+	    layout="@layout/frg_tab1_condition_s"
+	    android:layout_height="35dp"
+	    android:layout_width="match_parent"
+	    android:layout_below="@id/title_bar"
+	    android:visibility="invisible"/>
+    
+
+</RelativeLayout>

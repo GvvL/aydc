@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">client</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="act_main_me">我的</string>
+    <string name="act_main_order">订单</string>
+    <string name="act_main_cate">分类</string>
+    <string name="act_main_index">首页</string>
+    <string name="frg_tab1_tv_address">送至:定位中...\t</string>
+    
+    
+    <string name="undo">撤销</string>
+    <string name="retry">重试</string>
+    <string name="no_net_msg">无网络</string>
+    <string name="no_data_msg">无数据</string>
+    
+    <string name="cube_ptr_pull_down">Pull Down</string>
+    <string name="cube_ptr_pull_down_to_refresh">Pull Down to Refresh</string>
+    <string name="cube_ptr_release_to_refresh">Release To Refresh</string>
+    <string name="cube_ptr_refreshing">Updating...</string>
+    <string name="cube_ptr_refresh_complete">Updated.</string>
+
+    <string name="cube_ptr_last_update">last update:&#160;</string>
+    <string name="cube_ptr_seconds_ago">&#160;seconds ago</string>
+    <string name="cube_ptr_minutes_ago">&#160;minutes ago</string>
+    <string name="cube_ptr_hours_ago">&#160;hours ago</string>
+    
+    <string name="cube_views_load_more_loading">加载中...</string>
+    <string name="cube_views_load_more_click_to_load_more">点击加载更多</string>
+    <string name="cube_views_load_more_loaded_no_more">全部数据加载完毕</string>
+    <string name="cube_views_load_more_loaded_empty">数据为空</string>
+    <string name="cube_views_load_more_error">加载失败,点击重试</string>
+    
+    <!--生成方式：panitcode  -->
+    <string-array name="storehouse">
+        <item>0,35,12,42,</item>
+        <item>12,42,24,35,</item>
+        <item>24,35,12,28,</item>
+        <item>0,35,12,28,</item>
+        <item>0,21,12,28,</item>
+        <item>12,28,24,21,</item>
+        <item>24,35,24,21,</item>
+        <item>24,21,12,14,</item>
+        <item>0,21,12,14,</item>
+        <item>0,21,0,7,</item>
+        <item>12,14,0,7,</item>
+        <item>12,14,24,7,</item>
+        <item>24,7,12,0,</item>
+        <item>0,7,12,0,</item>
+    </string-array>
+        <string name="tab1_cate1">餐饮</string>
+        <string name="tab1_cate2">超市购</string>
+        <string name="tab1_cate3">水果生鲜</string>
+        <string name="tab1_cate4">下午茶</string>
+        <string name="tab1_cate5">土豪特供</string>
+        <string name="tab1_cate6">质享生活</string>
+        <string name="tab1_cate7">阿姨专送</string>
+        <string name="tab1_cate8">送药上门</string>
+        <string name="tab1_act1">今日必抢</string>
+        <string name="tab1_act2">来此领券</string>
+        <string name="tab1_act3">立减优惠</string>
+        <string name="tab1_act1_d">10员吃个饱</string>
+        <string name="tab1_act2_d">领完在下单</string>
+        <string name="tab1_act3_d">省出品质感</string>
+        <string name="cell_store_sendprice">配送</string>
+        <string name="cell_store_startprice">起送</string>
+        
+        
+        <string name="cell_store_jianqian_a">票</string>
+        <string name="cell_store_jianqian_b">价</string>
+        <string name="frg_tab2_title">吃啥</string>
+        <string name="frg_tab2_title_right">我常吃</string>
+        <string name="tab2_guesslike_title">猜你喜欢</string>
+        <string name="tab2_guesslike_str">最近一次更新： 09：00</string>
+        <string name="frg_tab3_title">订单</string>
+        <string name="frg_tab3_title_right">早餐订单</string>
+        <string name="frg_tab4_title">我的</string>
+        <string name="frg_tab4_cate1">"    收货地址"</string>
+        <string name="frg_tab4_cate2">"    我的收藏"</string>
+        <string name="frg_tab4_cate3">"    我的评价"</string>
+        <string name="frg_tab4_cate4">"    我的退款"</string>
+        <string name="frg_tab4_cate5">"    在线客服"</string>
+        <string name="frg_tab4_cate6">"    常见问题"</string>
+        <string name="frg_tab4_cate7">"    商家入驻"</string>
+        <string name="tab4_yue">我的余额</string>
+        <string name="tab4_redbag">我的红包</string>
+        <string name="tab4_score">我的积分</string>
+        <string name="frg_tab1_condition1">"全部  "</string>
+        <string name="frg_tab1_condition2">"排序   "</string>
+        <string name="frg_tab1_condition3">"阿姨专送  "</string>
+
+</resources>

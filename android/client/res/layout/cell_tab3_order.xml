@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding3"
+    android:paddingRight="@dimen/padding3"
+    android:paddingTop="@dimen/padding2"
+    android:paddingBottom="@dimen/padding1"
+    android:background="@color/mainwhite" >
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="订单已完成"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font2"
+            android:textColor="@color/mainblack"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/padding2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="2016-03-19  18:39:50"
+            android:textSize="@dimen/font2"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/maingray4"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <ImageButton 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/delect_icon"
+            android:background="@null"
+            android:scaleX="0.8"
+            android:scaleY="0.8"/>
+
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_marginTop="@dimen/padding2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <ImageView 
+            android:layout_height="@dimen/bottom_bar_hight"
+            android:layout_width="@dimen/bottom_bar_hight"
+            android:background="@drawable/shape_corners_a"
+            android:src="@drawable/test_store"
+            android:scaleType="fitXY"/>
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/padding2"
+            android:orientation="vertical">
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/font3"
+                android:textColor="@color/mainblack"
+                android:text="维科抱在饭   >"/>
+            <View 
+                android:layout_height="0.5dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/padding2"
+                android:layout_marginBottom="@dimen/padding2"
+                android:background="@color/maingray3"/>
+            <!--订单菜品  adapter-->
+            <LinearLayout 
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <LinearLayout 
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+                    <TextView android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/font2"
+                        android:textColor="@color/maingray4"
+                        android:text="雪碧"/>
+                    <TextView android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textSize="@dimen/font2"
+                        android:textColor="@color/maingray4"
+                        android:text="x1"/>
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_marginTop="@dimen/padding1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+                    <TextView android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/font2"
+                        android:textColor="@color/maingray4"
+                        android:text="异象茄子盖饭"/>
+                    <TextView android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textSize="@dimen/font2"
+                        android:textColor="@color/maingray4"
+                        android:text="x1"/>
+                </LinearLayout>
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    <!--份数 +价格  -->
+    <LinearLayout 
+        android:layout_marginTop="@dimen/padding2"
+        android:layout_marginBottom="@dimen/padding1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/font2"
+            android:textColor="@color/maingray4"
+            android:gravity="right"
+            android:text="共"/>
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/mainblack"
+            android:textSize="@dimen/font2"
+            android:textStyle="bold"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="2"/>
+       <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/font2"
+            android:textColor="@color/maingray4"
+            android:gravity="right"
+            android:text="份，实付"/>
+       <TextView 
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:textColor="@color/mainblack"
+           android:textSize="@dimen/font3"
+           android:textStyle="bold"
+           android:layout_marginLeft="2dp"
+           android:text="¥12.00"/>
+       
+    </LinearLayout>
+    <!--分割线  -->
+    <View 
+        android:layout_height="0.6dp"
+        android:layout_width="match_parent"
+        android:background="@color/maingray3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding1"
+        android:layout_gravity="right"
+        android:clickable="true"
+		android:padding="@dimen/padding1"
+        android:background="@drawable/shape_tab3_order_getagain_bg"
+        android:textColor="@color/green2gray_color_selector"
+        android:textSize="@dimen/font2"
+        android:text="再来一单" />
+
+</LinearLayout>

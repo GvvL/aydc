@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:fitsSystemWindows="true"
+    android:background="@color/maingreen">
+    <RelativeLayout 
+        android:id="@+id/nav_bar"
+        android:layout_height="@dimen/nav_bar_hight"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/window_nev_bar_padding"
+        android:paddingRight="@dimen/window_nev_bar_padding"
+        android:background="@color/maingreen">
+        <ImageButton 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_arrow_left_white"
+            android:background="@null"
+            android:layout_centerVertical="true"/>
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="收货地址"
+            android:textColor="@color/mainwhite"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/title"
+            />
+        <ImageButton 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_dele_white"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@null"/>
+    </RelativeLayout>
+    <FrameLayout 
+        android:layout_below="@id/nav_bar"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/mainwhite">
+        <LinearLayout 
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <com.aydc.client.widgets.list.StickyListHeadersListView
+                android:id="@+id/act_store_food_lv"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:clipToPadding="false"
+		        android:drawSelectorOnTop="true"
+		        android:padding="5dp"
+		        android:fastScrollEnabled="true"
+		        android:overScrollMode="never"
+                />  
+        </LinearLayout>
+        <TextView 
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="加载中"/>
+        
+    </FrameLayout>
+    
+
+</RelativeLayout>

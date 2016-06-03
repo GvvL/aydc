@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/padding2"
+    android:paddingBottom="@dimen/padding2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="@dimen/font4"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:drawableTop="@drawable/ic_tab1_cate1"
+            android:textColor="@color/maingray5"
+            android:text="@string/tab1_cate1" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="@dimen/font4"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:drawableTop="@drawable/ic_tab1_cate2"
+            android:textColor="@color/maingray5"
+            android:text="@string/tab1_cate2" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="@dimen/font4"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:drawableTop="@drawable/ic_tab1_cate3"
+            android:textColor="@color/maingray5"
+            android:text="@string/tab1_cate3" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="@dimen/font4"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:drawableTop="@drawable/ic_tab1_cate4"
+            android:textColor="@color/maingray5"
+            android:text="@string/tab1_cate4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="@dimen/font4"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:drawableTop="@drawable/ic_tab1_cate5"
+            android:textColor="@color/maingray5"
+            android:text="@string/tab1_cate5" />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="@dimen/font4"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:drawableTop="@drawable/ic_tab1_cate6"
+            android:textColor="@color/maingray5"
+            android:text="@string/tab1_cate6" />
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="@dimen/font4"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:drawableTop="@drawable/ic_tab1_cate7"
+            android:textColor="@color/maingray5"
+            android:text="@string/tab1_cate7" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/font4"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:drawableTop="@drawable/ic_tab1_cate8"
+            android:textColor="@color/maingray5"
+            android:text="@string/tab1_cate8" />
+    </LinearLayout>
+
+</LinearLayout>
